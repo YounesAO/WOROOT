@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 181, 32,0.2);
+
+}
+.head{
+    padding: 12px;
+    background-color: rgb(236, 181, 32);
+    
+}
+.head button{
+    padding:5px;
+    margin: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 2px #0000005f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head span{
+    font-weight: bolder;
+    position: relative;
+    left: 33%;
+    color: white ;
+}
+.head #questionNb {
+    font-size: 29px;
+}
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.q-desc{
+    max-width: 300px;
+}
+.q-desc .questionTxt{
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    min-height: 10px;
+    line-height: 25px;
+}
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 181, 32,0.1);
+
+}
+.answer span{
+    padding: 2px;
+    margin: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    border:3px solid rgb(236, 181, 32) ;
+}
+.keyAnswers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis:50%;
+}
+.A-btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.keyAnswers button{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 900;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 181, 32,0.2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer span{
+    font-size: small;
+    
+}
