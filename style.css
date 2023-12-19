@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.head button:hover{
+    background-color: rgb(231, 150, 21);
+    opacity: 0.7;
+    transform: scale(1.2);
+    transition: all 300ms ease-in-out;
+}
 body{
     background-color: rgb(236, 181, 32,0.2);
 
@@ -31,6 +37,20 @@ body{
 .head #questionNb {
     font-size: 29px;
 }
+
+
+.head #bonus{
+    position: absolute;
+    right: 20px;
+    
+}
+.head #nbBonus{
+    position: relative;
+    font-size: small;
+    left: 0;
+    bottom:3px;
+}
+
 .question{
     display: flex;
     justify-content: center;
@@ -50,15 +70,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(236, 181, 32,0.1);
 
 }
 .answer span{
-    padding: 2px;
-    margin: 1px;
+    padding: 10px;
+    margin: 1px 3px 1px 3px;
     font-size: 20px;
     font-weight: bold;
-    border:3px solid rgb(236, 181, 32) ;
+    border:1px solid rgb(236, 181, 32) ;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 1;
+    box-shadow: 1px 0px 0.5px 1px #00000050;
+
+}
+.spot:hover{
+    background-color: #ff000050;
+    transition: all 100ms ease;
+    cursor: grab;
 }
 .keyAnswers{
     display: flex;
